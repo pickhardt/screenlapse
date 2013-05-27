@@ -20,6 +20,9 @@ def save_pid(pid_file_name):
 
 save_pid(_PID_FILE)
 
+if not os.path.exists(_PATH):
+  os.makedirs(_PATH)
+
 index = 0
 while True:
   index += 1

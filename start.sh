@@ -2,5 +2,5 @@
 
 ./stop.sh
 
-echo "Starting timelapse as daemon"
-python timelapse.py&
+echo "Starting screenlapse as daemon"
+python screenlapse.py&
